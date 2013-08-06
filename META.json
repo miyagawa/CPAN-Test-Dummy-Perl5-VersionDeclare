@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Dummy CPAN distribution with $VERSION delcared with version.pm",
    "author" : [
       "Tatsuhiko Miyagawa <miyagawa@bulknews.net>"
    ],
@@ -46,6 +46,17 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-VersionDeclare/issues"
+      },
+      "homepage" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-VersionDeclare",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-VersionDeclare.git",
+         "web" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-VersionDeclare"
+      }
+   },
+   "version" : "v0.0.1"
 }
 

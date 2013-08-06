@@ -1,6 +1,6 @@
 # NAME
 
-CPAN::Test::Dummy::Perl5::VersionDeclare - Blah blah blah
+CPAN::Test::Dummy::Perl5::VersionDeclare - Dummy CPAN distribution with $VERSION delcared with version.pm
 
 # SYNOPSIS
 
@@ -8,7 +8,11 @@ CPAN::Test::Dummy::Perl5::VersionDeclare - Blah blah blah
 
 # DESCRIPTION
 
-CPAN::Test::Dummy::Perl5::VersionDeclare is
+CPAN::Test::Dummy::Perl5::VersionDeclare is a dummy CPAN distribution with:
+
+    use version; our $VERSION = version->declare('v0.0.1');
+
+in its VERSION line.
 
 # AUTHOR
 
